@@ -1,6 +1,6 @@
 import Link from "next/link"
 import "./main.css"
-import Admin from "@/app/(admin)/page"
+import Admin from "@/app/(admin)/admin/page"
 import AddStudent from "@/svgs/addstudent"
 
 export default function Main() {

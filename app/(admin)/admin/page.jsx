@@ -1,6 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
 import Image from "next/image";
-import "./admin.css"
+import "../admin.css"
 import CopKutusu from "@/svgs/copkutusu";
 import Guncelle from "@/svgs/guncelle";
 
