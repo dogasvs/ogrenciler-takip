@@ -1,6 +1,9 @@
+import Google from '@/svgs/google';
 import { login } from './action'
 import "./login.css";
 import Link from 'next/link';
+import Github from '@/svgs/github';
+import Facebook from '@/svgs/facebook';
 
 export default function LoginPage() {
   return (
@@ -15,11 +18,11 @@ export default function LoginPage() {
       <input id="password" name="password" type="password" required placeholder='*******' />
       <button className='loginBtn' formAction={login}>Giriş yap</button>
       <p>Ya da hesaplarla devam edin</p>
-      {/* <div className="withSocialMedia">
+      <div className="withSocialMedia">
         <Google />
         <Github />
         <Facebook />
-      </div> */}
+      </div>
       <div className="orSignUp">
         <p>Hesabın Yok Mu? <Link href={"/sign-up"} className='kaydolBtn'>Kaydol</Link> </p>
       </div>
