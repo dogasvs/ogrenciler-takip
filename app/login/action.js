@@ -19,10 +19,8 @@ export async function login(formData) {
 
   if (error) {
     redirect('/error')
-  }
-
-  revalidatePath('/', 'layout')
-  redirect('/')
+  } 
+    redirect("/portal"); 
 }
 
 export async function signup(formData) {
@@ -39,8 +37,9 @@ export async function signup(formData) {
 
   if (error) {
     redirect('/error')
+  } else {
+    redirect("/portal"); 
   }
 
   revalidatePath('/', 'layout')
-  redirect('/')
 }
