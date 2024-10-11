@@ -1,0 +1,20 @@
+.studentList {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  margin-block: 80px;
+}
+
+.students {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid rgb(224 216 216);
+  padding: 20px 60px;
+  border-radius: 10px;
+
+  p {
+    text-align: center;
+    font-size: 23px;
+    color: #565656;
+  }
+}
