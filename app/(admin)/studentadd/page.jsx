@@ -20,15 +20,15 @@ import "../admin.css"
   
   return (
     <div>
-      <form ref={formRef} action={action}>
+      <form className="studentAddForm" ref={formRef} action={action}>
         <label htmlFor="firstname">
-          <input type="text" placeholder="firstname" name='firstname' />
+          <input type="text" placeholder="Adı" name='firstname' />
         </label>
         <label htmlFor="lastname">
-          <input type="text" placeholder="lastname" name='lastname' />
+          <input type="text" placeholder="Soyadı" name='lastname' />
         </label>
         <label htmlFor="schoolNo">
-          <input type="text" placeholder="schoolNo" name='schoolNo' />
+          <input type="text" placeholder="Öğrenci Numarası" name='schoolNo' />
         </label>
         <select name='gender'>
           <option value="">Lütfen cinsiyet seçiniz</option>

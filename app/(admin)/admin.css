@@ -26,5 +26,43 @@
 .updateStudent {
   justify-content: space-evenly;
   display: flex;
-  cursor: pointer;
+  align-items: center;
+
+  button  {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.studentAddForm {
+  margin: 0 auto;
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-block: 50px;
+
+  input, select {
+    width: 420px;
+    padding: 10px 16px;
+    border-color: transparent;
+    border-radius: 7px;
+    margin-bottom: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+
+  .studentAddBtn {
+    border: transparent;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
 }
