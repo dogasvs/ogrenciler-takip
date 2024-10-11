@@ -9,6 +9,7 @@ export default function Sidenav() {
       <div className="sidenavElements">
          <Logo />
         <a href="#">Profil</a>
+        <a href="#">Öğrenciler</a>
         <a href="#">Not bilgileri</a>
         <a href="#">Ayarlar</a>
       </div>

@@ -1,3 +1,16 @@
 .main {
-  background-color: #D1E6FF;
+  background-color: #FFF;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.addStudentFormBtn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  float: right;
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
 }

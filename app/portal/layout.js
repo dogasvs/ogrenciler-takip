@@ -1,7 +1,9 @@
+import AdminHeader from "@/components/adminHeader";
 import Main from "@/components/main";
 import Sidenav from "@/components/sidenav";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
+import "./portal.css"
 
 export default async function PortalLayout({ children }) {
   const supabase = createClient();
@@ -10,9 +12,12 @@ export default async function PortalLayout({ children }) {
     redirect("/login")
   }
   return (
-    <div className="PortalLayout">
+    <div className="portalLayout">
       <Sidenav />
-      <Main />
+      <div className="content">
+        <AdminHeader />
+        <Main />
+      </div>
       {children}
     </div>
   );
