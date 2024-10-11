@@ -1,8 +1,8 @@
 import { createClient } from "@/utils/supabase/server";
 import Image from "next/image";
 import "../admin.css"
-import CopKutusu from "@/svgs/copkutusu";
 import Guncelle from "@/svgs/guncelle";
+import DeleteStudent from "../studentdelete/page";
 
 export default async function Admin() {
   const supabase = createClient();
@@ -19,7 +19,7 @@ export default async function Admin() {
                 <p>{x.first_name} {x.last_name}</p> 
               </div>
               <div className="updateStudent">
-                <CopKutusu />
+                <DeleteStudent dataid={x.id} />
                 <Guncelle />
               </div>
             </div>
