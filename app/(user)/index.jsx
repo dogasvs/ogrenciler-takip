@@ -13,6 +13,6 @@ export default async function User() {
   }
 
   return (
-    <h1>hello {user.user_metadata.firstName} {user.user_metadata.lastName} </h1>
+    <h1>hello {user.user_metadata.first_name} {user.user_metadata.last_name} </h1>
   )
 }

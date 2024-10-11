@@ -11,10 +11,20 @@
   border: 2px solid rgb(224 216 216);
   padding: 20px 60px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   p {
     text-align: center;
     font-size: 23px;
     color: #565656;
   }
+}
+
+.updateStudent {
+  justify-content: space-evenly;
+  display: flex;
+  cursor: pointer;
 }
