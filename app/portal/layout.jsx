@@ -1,4 +1,4 @@
-import Main from "@/components/main/page";
+import Main from "@/components/main";
 import Sidenav from "@/components/sidenav";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";

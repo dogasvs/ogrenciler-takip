@@ -1,7 +1,7 @@
 import { signUp } from "@/actions/auth";
 import "./signup.css";
-import Logo from "@/svgs/logo/page";
 import Link from "next/link";
+import Logo from "@/svgs/logo";
 
 export default function SignUpPage() {
   return (
